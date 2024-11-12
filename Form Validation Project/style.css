@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    border: 2px rgb(53, 41, 41) solid;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 40px;
+    width: 70%;
+}

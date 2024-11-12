@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Simple Form Validation Project</title>
+  </head>
+  <body>
+    <section class="container">
+      <form id="fillform">
+        <div class="input-container">
+          <input
+            type="text"
+            class="username"
+            placeholder="Name: "
+            id="username"
+          />
+        </div>
+        <div class="input-container">
+          <input type="email" placeholder="Email" class="email" id="email" />
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            id="confirmpassword"
+            class="confirmpassword"
+          />
+        </div>
+        <div class="input-container">
+          <input type="submit" name="submit" id="submit" />
+        </div>
+        <div class="input-container">
+            <a href="#fillform">Sign Up</a>
+        </div>
+      </form>
+    </section>
+  </body>
+  <script src="./app.js"></script>
+</html>
